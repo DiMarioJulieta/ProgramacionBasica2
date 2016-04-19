@@ -1,0 +1,22 @@
+package ar.edu.unlam.trabajopractico1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+
+public class TestTrabajoPractico {
+
+	@Test
+	public void test() {
+		
+	
+	}
+
+	@test
+	public void debeTenerPerimetroCoreccto() {
+		Circulo miCirculo = new Circulo(new Double(9.8));
+		Assert.assertEquals("61.57", miCirculo.getPerimetroTruncado);
+	}
+}
